@@ -1,0 +1,67 @@
+/* Import Tailwind (v4 syntax) */
+@import "tailwindcss";
+
+/* -----------------------------
+   1. Tipografía personalizada
+------------------------------ */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/satoshi/Satoshi-Variable.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ClashGrotesk';
+  src: url('/fonts/grotesk/ClashGrotesk-Variable') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* -----------------------------
+   2. Theme configuration (v4)
+------------------------------ */
+@theme {
+  --font-satoshi: Satoshi, ui-sans-serif, system-ui, sans-serif;
+  --font-grotesk: ClashGrotesk, ui-sans-serif, system-ui, sans-serif;
+  
+  /* Colores personalizados Alicia */
+  --color-alicia-50: rgb(241 240 244);
+  --color-alicia-100: rgb(222 220 230);
+  --color-alicia-200: rgb(198 194 211);
+  --color-alicia-300: rgb(173 168 192);
+  --color-alicia-400: rgb(148 142 173);
+  --color-alicia-500: rgb(119 114 134);
+  --color-alicia-600: rgb(101 96 115);
+  --color-alicia-700: rgb(83 79 96);
+  --color-alicia-800: rgb(65 61 77);
+  --color-alicia-900: rgb(49 46 59);
+}
+
+/* -----------------------------
+   3. Estilos base
+------------------------------ */
+body {
+  font-family: var(--font-grotesk);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(205, 200, 240, 0.5) 60%,
+    rgba(200, 128, 90, 0.3) 100%
+  );
+}
+
+/* -----------------------------
+   4. Reseteos opcionales
+------------------------------ */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
