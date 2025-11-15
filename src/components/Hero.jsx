@@ -55,7 +55,7 @@ export default function Hero() {
     }, 7000);
 
     return () => clearInterval(interval);
-  }, [currentPhraseIndex]);
+  }, [currentPhraseIndex, phrases.length]);
 
   // Dividir la frase en palabras para aplicar stagger
   const renderAnimatedText = (text) => {

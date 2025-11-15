@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../assets/img/Aliciadelriofishlogo.png"
 
 
-export default function RotatingLogo({ src, alt = "Logo", className = "" }) {
+export default function RotatingLogo({ alt = "Logo", className = "" }) {
   return (
     <>
       <div className="inline-block w-40">

@@ -1,7 +1,4 @@
-import metodoImg from "../assets/img/ali-taichi.png";
-import formacionImg from "../assets/img/emerald.png";
-import resultadosImg from "../assets/img/jo.png";
-import { Card, CardContent } from "./Card";
+
 
 
 export default function Benefits() {
