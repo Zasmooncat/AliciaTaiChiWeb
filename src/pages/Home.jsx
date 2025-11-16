@@ -15,7 +15,7 @@ import Separador from "../components/separador";
 
 export default function LandingPage() {
   return (
-    <div className="  mx-auto min-h-screen flex flex-col">
+    <div className=" mx-auto min-h-screen flex flex-col">
 
       <Navbar />
       <Hero />

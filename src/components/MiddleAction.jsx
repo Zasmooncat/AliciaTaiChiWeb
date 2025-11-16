@@ -34,7 +34,7 @@ export default function MiddleAction() {
                             Con el tiempo, un entrenamiento constante puede transformar el sistema nervioso para reaccionar de forma contraria a lo habitual; en lugar de responder con tensión y fuerza ante situaciones estresantes de la vida, podremos reaccionar con una conciencia tranquila, enfocada, y trabajar hacia una solución más armoniosa y pacífica.
 
                         </p>
-                        <h2 className="text-3xl md:text-4xl text-start mt-8 font-bold text-alicia-400">
+                        <h2 className="text-2xl md:text-3xl text-start mt-8 font-bold text-alicia-400">
                             Empieza hoy mismo
                         </h2>
                         <p className="mt-4 text-alicia-400 text-justify max-w-2xl mx-auto">
@@ -42,7 +42,7 @@ export default function MiddleAction() {
                             y saludable. No necesitas experiencia previa. ¡Te espero en la clase de prueba!
 
                         </p>
-                        <Button className="mt-6 cursor-pointer absolute left-8 md:left-0 w-70 px-8 py-4 text-lg rounded-2xl  shadow-lg">
+                        <Button className="mt-6 cursor-pointer  md:left-0 w-70 px-8 py-4 text-lg rounded-2xl  shadow-lg">
                             Quiero mi clase de prueba
                         </Button>
 

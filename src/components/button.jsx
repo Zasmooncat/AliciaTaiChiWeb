@@ -8,7 +8,7 @@ export default function Button({
   className = "",
 }) {
   const baseStyles =
-    "inline-flex items-center justify-center rounded-2xl font-medium transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2";
+    "inline-flex items-center justify-center rounded-full font-medium transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2";
 
   const variants = {
     primary:

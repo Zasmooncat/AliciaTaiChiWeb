@@ -74,7 +74,7 @@ export default function Hero() {
           <div className="relative z-10 text-center">
             <div className="relative">
 
-            <img src={Fondo} alt="imagen taichi" className="relative md:w-330 m-auto md:h-110 object-cover [mask-image:linear-gradient(to_bottom,black_70%,transparent_100%)]" />
+            <img src={Fondo} alt="imagen taichi" className="relative md:w-320 rounded-2xl m-auto md:h-110 object-cover [mask-image:linear-gradient(to_bottom,black_70%,transparent_100%)]" />
             
             
             
@@ -82,7 +82,7 @@ export default function Hero() {
 
             <h1
               ref={titleRef}
-              className="text-5xl md:text-7xl font-bold my-10 text-alicia-500 md:w-7xl mx-auto h-[160px]  "
+              className="text-5xl md:text-5xl lg:text-7xl font-bold my-10 text-alicia-500 md:w-4xl lg:w-7xl mx-auto h-[160px]  "
             >
               {renderAnimatedText(phrases[currentPhraseIndex])}
             </h1>

@@ -11,14 +11,16 @@ export default function Navbar() {
     };
 
     return (
-        <nav className="w-full py-4 pe-5 md:px-8  top-0 left-0 z-50">
-            <div className="max-w-9/8 mx-auto flex items-center gap-5 justify-between">
+        <nav className="w-full py-4 md:pe-5 md:px-8  top-0 left-0 z-50">
+            <div className="md:bg-white/40 px-3 py-2 rounded-xl md:max-w-12/16 mx-auto flex items-center md:gap-5 justify-between">
                 {/* Logo */}
                 
-                <div className="text-2xl flex items-center ms-3 gap-3 text-alicia-500">
+                <a href="inicio">
+                    <div className="text-2xl flex items-center  gap-3 text-alicia-500">
                     <img src={Logo} alt="" className="w-10"/>
                     Alicia del Río
                 </div>
+                    </a>
 
                 {/* Menu Desktop */}
                 <div className="hidden md:flex">
